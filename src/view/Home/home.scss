@@ -1,0 +1,38 @@
+@import '../../assets/style/variables.scss';
+
+#home{
+    display: flex;
+    justify-content: center;
+    background-color: $back-color;
+    .showpanel{
+        margin-top: 52px;
+        width: 1258px;
+        display: flex;
+        .left{
+            width: 1000px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .adcarousel{
+                width: 100%;
+                // margin-bottom: 145px;
+            }
+            .leftmenu{
+                width: 208px;
+            }
+            .middle{
+                width: 525px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .rightmenu{
+                width: 266px;
+            }
+        }
+        .right{
+            width: 258px;
+            padding-left: 20px;
+        }
+    }
+}

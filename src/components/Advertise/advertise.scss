@@ -1,0 +1,38 @@
+@import '../../assets/style/variables.scss';
+
+#advertise{
+    .adshowpanel{
+        // position: fixed;
+        // width: 266px;
+        // overflow: scroll;
+        height: 600px;
+        margin-top: 8px;
+        background-color: white;
+        padding: 8px;
+        border: thin solid rgba(0,0,0,0.2);
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 5px;
+        }
+        .adpanel{
+            margin-bottom: 10px;
+            border-bottom: thin solid $primary-color;
+            padding-bottom: 10px;
+            .imgdiv{
+                height: 120px;
+                background-color: $primary-color;
+            }
+            .content{
+                padding: 3px;
+                .adtitle{
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: $primary-color;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+}

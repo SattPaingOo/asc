@@ -1,0 +1,122 @@
+@import '../../assets/style/variables.scss';
+
+#login{
+    background-color: $back-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .header{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        .title{
+            width: 1258px;
+            font-size: 25px;
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+    .content{
+        width: 1258px;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        background-color: $back-color;
+        .left{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            padding-top: 70px;
+            justify-content: center;
+            .asclogo{
+                width: 300px;
+                height: 400px;
+            }
+        }
+        .right{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: $back-color;
+            padding-top: 100px;
+            @media only screen and (max-width: $lg-laptop) {
+                width: 50%;
+            }
+            .formdiv{
+                width: 80%;
+                padding-left: 80px;
+                padding-right: 80px;
+                .callout{
+                    margin-bottom: 10px;
+                }
+                .loginbtn{
+                    background-color: $primary-color;
+                    width: 100%;
+                    border-color: $primary-color;
+                }
+                .forgotdiv{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    .text{
+                        font-size: 15px;
+                        color: $primary-color;
+                        font-weight: 400;
+                        cursor: pointer;
+                    }
+                }
+                .ordiv{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                    .text{
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                }
+                .regtitlediv{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    .text{
+                        font-size: 20px;
+                        color: $primary-color;
+                        font-weight: 500;
+                    }
+                }
+                .acctypediv{
+                    width: 100%;
+                    .acctype{
+                        width: 100%;
+                    }
+                }
+                .signuptext{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    .list{
+                        padding-left: 15px;
+                        list-style-type: '* ';
+                        .text{
+                            font-size: 15px;
+                            font-weight: 400;
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

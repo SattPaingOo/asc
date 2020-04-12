@@ -1,0 +1,167 @@
+@import '../../assets/style/variables.scss';
+#view_job_post{
+    width: 480px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+    border-color: #282828;
+    .header{ 
+        margin-top: 5px;
+        height: 50px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+         .company_icon{
+            border: 1px solid $primary-color;
+            padding: 7px;
+            margin-right: 7px;
+            border-radius: 17px;
+        }
+        .companyInfo{
+            display: flex;
+            flex-wrap: wrap;
+             .company_name{
+                width: 100%;
+                font-weight: 500;
+                color: $primary-color;
+             }
+             .company_type{
+                width: 100%;
+                font-size: 12px;
+             }
+             .company_position{
+                width: 100%;
+                font-size: 12px;
+             }
+             .see{
+                width: 100%;
+                font-size: 12px;
+             }
+        }
+    }
+    .content{
+        .status{
+            width:100%;
+            padding: 12px;
+            color: $primary-color;
+        }
+        .condition{
+            width:100%;
+            padding: 12px;
+            margin-bottom: 5px;
+            display:flex;
+             .status_left{
+                width:50%;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                 .position{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;
+                 }
+                 .vancant{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;  
+                 }
+                 .salary{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;  
+                 }
+                 .date{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;  
+                 }
+                 .duration{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;  
+                 }
+             }
+             .status_right{
+                width:50%;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                .position_value{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;
+                    text-align: right;
+                 }
+                 .vancant_value{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;
+                    text-align: right;  
+                 }
+                 .salary_value{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color; 
+                    text-align: right; 
+                 }
+                 .date_value{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color;
+                    text-align: right;  
+                 }
+                 .duration_value{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color; 
+                    text-align: right; 
+                 }
+                 .readmore{
+                    width: 100%;
+                    font-weight: 500;
+                    color: $primary-color; 
+                    text-align: right; 
+                 }
+             }
+        }
+        .image{
+            padding: 7px;
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid $primary-color;
+        border-top-width: thin;
+        padding: 12px;
+         .footer_left{
+            width: 50%;
+             .share{
+                display: flex;
+                align-items: center;
+             }
+             
+ 
+         }
+         .footer_right{
+             width: 50%;
+             display: flex;
+             align-items: center;
+             justify-content: flex-end;
+             .more{
+               
+            }
+             
+         }
+         .viewJobPost-icon{
+            width: 25px;
+            height: 25px;
+            margin-left: -5px;
+            margin-right: 5px;
+        }
+    }
+
+}

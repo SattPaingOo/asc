@@ -1,0 +1,109 @@
+@import '../../assets/style/variables.scss';
+
+#register{
+    background-color: $back-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .header{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        .title{
+            width: 1258px;
+            font-size: 25px;
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+    .content{
+        width: 1258px;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        background-color: $back-color;
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .leftpanel{
+                margin-top: 50px;
+                .imgdiv{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .asclogo{
+                        width: 300px;
+                        height: 400px;
+                    }
+                }
+                .intropara{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-top: -80px;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+            }
+        }
+        .right{
+            width: 50%;
+            .panel{
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+#seafarer{
+    .formdiv{
+        width: 350px;
+        .title{
+            color: $primary-color;
+            font-weight: 500;
+            font-size: 23px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .callout{
+            margin-bottom: 15px;
+        }
+        .rankdiv{
+            width: 100%;
+        }
+        .countryselectdiv{
+            width: 100%;
+        }
+        .btndiv{
+            display: flex;
+            justify-content: center;
+            .btn{
+                background-color: $primary-color;
+                width: 100%;
+            }
+        }
+        .loginlinkbox{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            .link{
+                color: $primary-color;
+            }
+        }
+    }
+}

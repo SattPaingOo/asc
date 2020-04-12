@@ -1,0 +1,21 @@
+{
+    "Header" : {
+        "Home": "Home",
+        "Contact": "ContactUs",
+        "About": "About",
+        "Myanmar": "Myanmar",
+        "Language" : "Language",
+        "Login": "Login"
+    },
+    "LoginForm" : {
+        "Email" : "E-Mail",
+        "Password" : "Password",
+        "Login" : "Login",
+        "Forgotpassword" : "Forgotten Password?",
+        "Or" : "OR",
+        "Welcome" : "Welcome To A Seamen Club",
+        "SelectAccType" : "Select Account Type",
+        "SignupNoti" : "All account type are free",
+        "SignUp" : "Sign Up"
+    }
+}

@@ -1,0 +1,43 @@
+@import '../../assets/style/variables.scss';
+
+#friendlist{
+    .friendlistshowpanel{
+        position: fixed;
+        width: 238px;
+        border-right: 1px solid rgba(0,0,0,0.1);
+        border-left: 1px solid rgba(0,0,0,0.1);
+        height: 100vh;
+        padding: 8px;
+        .frienddiv{
+            height: 40px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: flex-start;
+            cursor: pointer;
+            .img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                .profileicon{
+                    border: 1px solid $primary-color;
+                    border-radius: 50px;
+                    padding: 8px;
+                }
+            }
+            .title{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .upper{
+                    color: $primary-color;
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+                .lower{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

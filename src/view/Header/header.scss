@@ -1,0 +1,19 @@
+@import '../../assets/style/variables.scss';
+#header{
+    .navbar{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        border-bottom: thin solid $primary-color;
+        .navdiv{
+            width: 1258px;
+        }
+    }
+
+    .home-icon{
+        width: 35px;
+        height: 35px;
+        margin-left: -5px;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../assets/style/variables.scss';
+
+#job_postDetails{
+    display: flex;
+    justify-content: center;
+    background-color: $back-color;
+    .show_pannel{
+        margin-top: 52px;
+        width: 1258px;
+        display: flex;
+        .left{
+            width: 1058px;
+            height: 100%;
+            display: flex;
+            .left_menu{
+                width: 250px;
+            }
+            .middle{
+                width: 558px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .right_menu{
+                width: 250px;
+            }
+        }
+        .right{
+            width: 200px;
+        }
+    }
+}
